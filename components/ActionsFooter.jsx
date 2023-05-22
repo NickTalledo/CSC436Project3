@@ -1,6 +1,6 @@
 "use client";
 
-import useUser from "csc-start/hooks/useUser";
+import useUser from "csc-start/lib/useUser";
 import Link from "next/link";
 
 const ActionsFooter = () => {

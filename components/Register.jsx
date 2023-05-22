@@ -3,8 +3,8 @@
 import { registerUser } from "csc-start/utils/data";
 import { useReducer } from "react";
 import { useRouter } from "next/navigation";
-import useUserMustBeLogged from "csc-start/hooks/useUserMustBeLogged";
-import useUser from "csc-start/hooks/useUser";
+import useUserMustBeLogged from "csc-start/lib/useUserMustBeLogged";
+import useUser from "csc-start/lib/useUser";
 
 const Register = () => {
   const { user } = useUser();
